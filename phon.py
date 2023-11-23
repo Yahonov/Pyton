@@ -44,3 +44,5 @@ while True:
     elif command == '/load':                                     #Загрузить файл контактов
         with open('phone_book.json') as file:
             phone_book=json.load(file)
+
+            
